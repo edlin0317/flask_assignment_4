@@ -40,9 +40,13 @@ def _news_api(q, n=10, w=50):
         if title_ok or content_ok:
             title = elem['title']
             content = elem['content'][:w]
+            url = elem['url']
+            yimg = elem['yimg']
             result.append({
                 'title':title,
-                'content':content
+                'content':content,
+                'url':url,
+                'yimg':yimg
             })
     return result
     
