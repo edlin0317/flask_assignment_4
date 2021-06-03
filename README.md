@@ -15,4 +15,4 @@
 3. 提供執行之畫面截圖
 
 # demo link:
-http://flaskass4.herokuapp.com/
+https://flaskass4.herokuapp.com/news_api?q=台灣,疫苗&n=10&w=50
